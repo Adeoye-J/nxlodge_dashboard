@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: all ease .4s;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.section-spacing {
+    padding-inline: 4rem;
+}
+
+@media screen and (max-width: 500px) {
+    .section-spacing {
+        padding-inline: 2rem;
+    }
+}
+
+

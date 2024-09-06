@@ -1,0 +1,92 @@
+.topnav-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+
+    .nav-icon {
+        margin-inline: 1rem;
+        cursor: pointer;
+        font-size: 25px;
+    }
+
+    .topnav-content {
+        width: 100%;
+        padding: .7rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .search-container {
+            position: relative;
+            width: 400px;
+
+            .icon {
+                position: absolute;
+                left: .5rem;
+                top: 10px;
+                color: #000000a4;
+                font-size: 1.2rem;
+            }
+
+            input {
+                outline: none;
+                border: none;
+                background-color: rgba(128, 128, 128, 0.459);
+                height: 38px;
+                width: 100%;
+                border-radius: 5px;
+                padding-inline: 2.5rem .6rem;
+                font-weight: bold;
+                font-size: .8rem;
+
+                &::placeholder {
+                    font-weight: bold;
+                    color: #000000a4;
+                }
+            }
+        }
+
+        @media screen and (max-width: 850px) {
+            .search-container {
+                width: 200px;
+            }
+        }
+
+        @media screen and (max-width: 400px) {
+            .search-container {
+                width: 130px;
+            }
+        }
+
+        .profile-notif {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+
+            .icon-con {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .icon {
+                    font-size: 1.2rem;
+                    cursor: pointer;
+                }
+            }
+
+            .profile-image {
+                width: 50px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                img {
+                    width: 100%;
+                    border-radius: 50%;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

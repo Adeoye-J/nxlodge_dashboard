@@ -1,0 +1,95 @@
+.sidenav-container {
+  width: 250px;
+  height: 100%;
+  box-shadow: 0px 0px 5px #000;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+}
+.sidenav-container .sidenav-content {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+.sidenav-container .sidenav-content .logo {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-block: 1rem;
+}
+.sidenav-container .sidenav-content .logo img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.sidenav-container .sidenav-content .side-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  width: 70%;
+}
+.sidenav-container .sidenav-content .side-links .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.sidenav-container .sidenav-content .side-links .item:hover {
+  background-color: rgba(173, 216, 230, 0.726);
+}
+.sidenav-container .sidenav-content .side-links .item .icon-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidenav-container .sidenav-content .side-links .item .icon-con .icon {
+  font-size: 1rem;
+  color: #000;
+}
+.sidenav-container .sidenav-content .side-links .item span {
+  color: #000;
+  font-weight: bold;
+  font-size: 0.8rem;
+}
+.sidenav-container .sidenav-content .bottom-link {
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+}
+.sidenav-container .sidenav-content .bottom-link .item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.sidenav-container .sidenav-content .bottom-link .item:hover {
+  background-color: rgba(233, 131, 131, 0.541);
+}
+.sidenav-container .sidenav-content .bottom-link .item .icon-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sidenav-container .sidenav-content .bottom-link .item .icon-con .icon {
+  color: red;
+  font-size: 1rem;
+}
+.sidenav-container .sidenav-content .bottom-link .item span {
+  color: red;
+  font-weight: bold;
+  font-size: 0.8rem;
+}/*# sourceMappingURL=sideNav.css.map */

@@ -1,0 +1,108 @@
+.lodge-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px #000;
+}
+.lodge-container .lodge-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 320px;
+}
+.lodge-container .lodge-content .image-container {
+  width: 100%;
+  height: 300px;
+}
+.lodge-container .lodge-content .image-container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.lodge-container .lodge-content .lodge-details {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+.lodge-container .lodge-content .lodge-details .title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.lodge-container .lodge-content .lodge-details .title h2 {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: blue;
+}
+.lodge-container .lodge-content .lodge-details .title p {
+  font-size: 1rem;
+  font-weight: 600;
+}
+.lodge-container .lodge-content .lodge-details .location {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-align: center;
+}
+.lodge-container .lodge-content .lodge-details .location .icon-con {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.lodge-container .lodge-content .lodge-details .location .icon-con .icon {
+  font-size: 20px;
+  color: #000;
+  cursor: pointer;
+}
+.lodge-container .lodge-content .lodge-details .location p {
+  font-weight: bold;
+}
+.lodge-container .lodge-content .lodge-details .other-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-transform: capitalize;
+}
+.lodge-container .lodge-content .lodge-details .other-details p {
+  color: #00f;
+  font-weight: bold;
+}
+@media screen and (max-width: 1240px) {
+  .lodge-container .lodge-content {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1010px) {
+  .lodge-container .lodge-content {
+    width: 350px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .lodge-container .lodge-content {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 840px) {
+  .lodge-container .lodge-content {
+    width: 300px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .lodge-container .lodge-content {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .lodge-container .lodge-content {
+    width: 340px;
+  }
+}
+@media screen and (max-width: 450px) {
+  .lodge-container .lodge-content {
+    width: 280px;
+  }
+}/*# sourceMappingURL=lodge_format_1.css.map */
